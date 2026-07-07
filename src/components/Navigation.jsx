@@ -49,7 +49,7 @@ export default function Navigation() {
       </header>
 
       {/* Bottom Navigation Bar (Mobile) */}
-      <nav className="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-md pb-md pt-sm glass-panel border-t border-white/50 shadow-lg rounded-t-[16px]">
+      <nav className="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-md pb-md pt-sm bg-white/95 backdrop-blur-xl border-t border-slate-200 shadow-[0_-8px_30px_rgba(0,0,0,0.08)] rounded-t-[24px]">
         <NavLink to="/" className={getMobileClass}>
           <span className="material-symbols-outlined icon-fill">emergency</span>
           <span className="font-label-sm text-[12px] mt-1 font-medium">{t('emergency')}</span>
