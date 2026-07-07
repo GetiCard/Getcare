@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import ProfileHeader from './components/ProfileHeader';
 import EmergencyProfile from './pages/EmergencyProfile';
@@ -8,7 +8,7 @@ import Contacts from './pages/Contacts';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div className="mesh-bg text-on-background min-h-screen flex flex-col md:flex-row font-body-md">
         <Navigation />
         
@@ -22,7 +22,7 @@ function App() {
           </Routes>
         </main>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
