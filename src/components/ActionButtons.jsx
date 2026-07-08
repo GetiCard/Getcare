@@ -14,7 +14,7 @@ export default function ActionButtons() {
 
   const handleFamilyAlert = () => {
     const phoneNumber = "5598981606569";
-    const text = encodeURIComponent("🚨 ALERTA GETCARE: A pulseira NFC foi escaneada agora! Pode ser uma emergência médica. Acesse os dados em: https://getcare.app/p/pedro-soares");
+    const text = encodeURIComponent("🚨 ALERTA GETCARE: A pulseira NFC foi escaneada agora! Pode ser uma emergência médica. Acesse os dados em: https://getcare.app/p/marina-oliveira");
     window.open(`https://wa.me/${phoneNumber}?text=${text}`, '_blank');
   };
 

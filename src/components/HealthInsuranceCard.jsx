@@ -23,7 +23,7 @@ export default function HealthInsuranceCard() {
       <div className="space-y-4 relative z-10">
         <div>
           <p className="font-label-sm text-[10px] text-emerald-200 uppercase tracking-wider mb-1">{t('cardHolderName')}</p>
-          <p className="font-headline-sm text-[18px] font-semibold tracking-wide">Pedro Soares</p>
+          <p className="font-headline-sm text-[18px] font-semibold tracking-wide">Marina Oliveira</p>
         </div>
 
         <div className="grid grid-cols-2 gap-4">

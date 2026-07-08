@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../LanguageContext';
+import fotoPerfil from '../assets/foto_perfil.jpeg';
 
 export default function ProfileHeader() {
   const { lang, toggleLanguage, t } = useLanguage();
@@ -22,12 +23,12 @@ export default function ProfileHeader() {
       <img 
         className="w-24 h-24 rounded-full object-cover border-2 border-white/80 shadow-md" 
         alt="Foto de perfil" 
-        src="https://lh3.googleusercontent.com/aida-public/AB6AXuARogoFLuUU0XligdVtd4kPcjjtZ3E_VfbqW7GYWijecJMgRj3dSbcmoa5QaPdka-lI2AbOXCYX994NCgrX0eft-03mFvtCzmRzzo4_kp2hoWbvJzDPt44J31Tt67xuh2gQXinEm1rQoLvUg44jZhdgkr7vCflNhdWfwDzPyQZueI8eDcC_KkEhkloWxcVhOwu0-z_dty_40Rj0UYolnw2ucEPJ_Pty7A4nG_UEkyQq9hDHZu81q5rTbw"
+        src={fotoPerfil}
       />
       <div className="flex-1 text-center md:text-left mt-2 md:mt-0">
-        <h1 className="font-headline-lg-mobile md:font-headline-lg text-[24px] md:text-[32px] text-on-background font-bold">Pedro Soares</h1>
+        <h1 className="font-headline-lg-mobile md:font-headline-lg text-[24px] md:text-[32px] text-on-background font-bold">Marina Oliveira</h1>
         <div className="font-body-md text-[14px] md:text-[16px] text-on-surface-variant mt-xs leading-relaxed">
-          <p className="inline-block md:block">23 {t('age')} • {t('weight')} <strong>72kg</strong> • {t('height')} <strong>1.80m</strong></p>
+          <p className="inline-block md:block">34 {t('age')} • {t('weight')} <strong>72kg</strong> • {t('height')} <strong>1.65m</strong></p>
           <p className="mt-1">{t('bloodType')} <strong className="text-primary text-[18px]">O+</strong></p>
         </div>
         <div className="flex flex-wrap justify-center md:justify-start gap-sm mt-sm">

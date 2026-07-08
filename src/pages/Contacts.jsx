@@ -14,7 +14,7 @@ export default function Contacts() {
         <div className="space-y-sm">
           <div className="flex items-center justify-between p-sm glass-panel-inner rounded-[8px] border-l-4 border-l-primary">
             <div>
-              <p className="font-label-md text-[16px] text-on-background font-bold">Luciana Soares</p>
+              <p className="font-label-md text-[16px] text-on-background font-bold">Luciana Oliveira</p>
               <p className="font-label-sm text-[13px] text-primary mt-0.5 font-semibold">{t('motherContact')}</p>
             </div>
             <a href="tel:999999999" className="w-12 h-12 flex items-center justify-center rounded-full glass-btn-primary text-white hover:bg-primary/90 shadow-md transition-transform active:scale-95">
@@ -23,7 +23,7 @@ export default function Contacts() {
           </div>
           <div className="flex items-center justify-between p-sm glass-panel-inner rounded-[8px] border-l-4 border-l-secondary">
             <div>
-              <p className="font-label-md text-[16px] text-on-background font-bold">Roberto Soares</p>
+              <p className="font-label-md text-[16px] text-on-background font-bold">Roberto Oliveira</p>
               <p className="font-label-sm text-[13px] text-secondary mt-0.5 font-semibold">{t('fatherContact')}</p>
             </div>
             <a href="tel:999999998" className="w-12 h-12 flex items-center justify-center rounded-full bg-secondary text-white hover:bg-secondary/90 shadow-md transition-transform active:scale-95">
