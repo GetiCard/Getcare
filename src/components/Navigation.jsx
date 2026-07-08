@@ -23,12 +23,12 @@ export default function Navigation() {
   return (
     <>
       {/* Top App Bar (Mobile) */}
-      <header className="md:hidden flex justify-between items-center w-full px-container-padding py-sm glass-panel border-b border-white/50 sticky top-0 z-40">
+      <header className="md:hidden flex justify-between items-center w-full px-container-padding py-sm bg-white/95 backdrop-blur-xl border-b border-slate-200 sticky top-0 z-40">
         <GetcareLogo />
       </header>
 
       {/* Top Navigation App Bar (Desktop/Tablet) */}
-      <header className="hidden md:flex flex-col w-64 h-screen fixed left-0 top-0 glass-panel border-r border-white/50 p-container-padding z-50">
+      <header className="hidden md:flex flex-col w-64 h-screen fixed left-0 top-0 bg-white/95 backdrop-blur-xl border-r border-slate-200 p-container-padding z-50">
         <div className="mb-xl">
           <GetcareLogo />
         </div>

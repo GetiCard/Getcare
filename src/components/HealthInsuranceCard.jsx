@@ -27,9 +27,9 @@ export default function HealthInsuranceCard() {
         </div>
 
         <div className="grid grid-cols-2 gap-4">
-          <div>
+          <div className="col-span-2">
             <p className="font-label-sm text-[10px] text-emerald-200 uppercase tracking-wider mb-1">{t('cardNumberLabel')}</p>
-            <p className="font-body-md text-[16px] font-mono tracking-wider">0000 1234 5678 9</p>
+            <p className="font-mono text-[16px] md:text-[20px] font-bold tracking-[0.15em] drop-shadow-sm whitespace-nowrap">0000 1234 5678 9</p>
           </div>
           <div>
             <p className="font-label-sm text-[10px] text-emerald-200 uppercase tracking-wider mb-1">{t('accommodation')}</p>
